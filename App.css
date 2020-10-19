@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(206, 250, 247);
+  display: flex;
+  justify-content: center;
+}
+
+#titulo {
+  color:#0B0B61;
+	font-size:120px;
+} 
