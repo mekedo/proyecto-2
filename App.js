@@ -13,8 +13,9 @@ function Titulo () {
 function App() {
   return (
     <div>
-       Redes sociales <Titulo/>
-        </div>
+       Twitter Facebook Instagram
+        <Titulo/>
+                </div>
   )
 }  
 
