@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
-//import fondopng from './imagen/fondo/fondopng.PNG';
+import fondo from './imagen/fondo/fondos.PNG';
+
 
 
 function Titulo () {
   return (
-    <div id ="titulo"> Aquazone </div>
+    <div id ="titulo"> Aquazone 
+    </div>
   )
 }
 
@@ -13,9 +15,12 @@ function Titulo () {
 function App() {
   return (
     <div>
-       Twitter Facebook Instagram
+       Twitter  Facebook  Instagram
         <Titulo/>
+        <img src= {fondo}/> 
                 </div>
+
+  
   )
 }  
 
